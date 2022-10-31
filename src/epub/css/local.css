@@ -1,6 +1,28 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+#introduction p{
+	text-align: center;
+	text-indent: 0;
+	font-variant: all-small-caps;
+	font-size: 120%;
+}
+
+#chapter-1 > blockquote{
+	text-align: center;
+	text-indent: 0;
+	font-variant: small-caps;
+}
+
+#chapter-3 > blockquote p{
+	text-indent: 0;
+}
+
+#chapter-3 > blockquote p:first-child{
+	text-align: center;
+	font-variant: small-caps;
+}
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -45,6 +67,42 @@ section > header [epub|type~="epigraph"] + *{
 	}
 }
 /* End epigraphs in section headers */
+
+/* Full-page epigraphs */
+section[epub|type~="epigraph"]{
+	text-align: center;
+}
+
+section[epub|type~="epigraph"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: flex){
+
+	section[epub|type~="introduction"],
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+
+	section[epub|type~="epigraph"] > * + *{
+		margin-top: 3em;
+	}
+}
+/* End full-page epigraphs */
 
 /* Verse */
 [epub|type~="z3998:song"] p,
