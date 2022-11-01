@@ -42,7 +42,7 @@
 		<dc:language>LANG</dc:language>
 		<dc:source>PG_URL</dc:source>
 		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">The phrase “pied à terre” in Chapter 5, though in Merriam-Webster, has nevertheless been italicised because it is in a passage amidst a series of other statements in French by a French speaker. It would seem odd to have it the only such statement not italicised.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Clouds_of_Witness</meta>
