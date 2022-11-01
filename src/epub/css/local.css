@@ -1,8 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+#introduction{
+	margin-top: 20vh; /* I added this because lint asked me to, but...? */
+}
+
 #introduction p{
-	font-size: 120%;
+	font-size: 2em;
 	font-variant: all-small-caps;
 	text-align: center;
 	text-indent: 0;
@@ -14,7 +18,7 @@ blockquote header{
 	text-indent: 0;
 }
 
-#chapter-1 > blockquote{
+#chapter-1 > blockquote p{
 	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
@@ -27,7 +31,6 @@ blockquote header{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -44,7 +47,6 @@ blockquote header{
 /* End all epigraphs */
 
 /* Epigraphs in section headers */
-article > header [epub|type~="epigraph"],
 section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
@@ -52,13 +54,11 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-article > header [epub|type~="epigraph"] + *,
 section > header [epub|type~="epigraph"] + *{
 	margin-top: 3em;
 }
 
 @supports(display: table){
-	article > header [epub|type~="epigraph"],
 	section > header [epub|type~="epigraph"]{
 		display: table;
 	}
@@ -89,14 +89,6 @@ section[epub|type~="epigraph"] > *{
 		min-height: calc(98vh - 3em);
 		padding-top: 3em;
 	}
-
-	section[epub|type~="epigraph"] > *{
-		margin: 0;
-	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
 }
 /* End full-page epigraphs */
 
@@ -119,18 +111,12 @@ section[epub|type~="epigraph"] > *{
 	display: none;
 }
 
-[epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
 p span.i1{
 	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
 	text-indent: -1em;
 }
 /* end verse */
@@ -175,9 +161,7 @@ table[epub|type~="z3998:drama"]{
 	font-style: italic;
 }
 
-[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
+[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
 
@@ -210,12 +194,23 @@ figure img{
 	max-width: 100%;
 }
 
-figcaption{
-	font-size: .75em;
-	font-style: italic;
-	margin: 1em;
+/* letters */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
 }
 
-figcaption p + p{
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
 }

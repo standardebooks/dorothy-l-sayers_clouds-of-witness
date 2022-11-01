@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-4.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Title of chapter begins with a dash and so it’s correct to uppercase the following word.</reason>
+		</ignore>
+	</file>
+	<file path="introduction.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>The “introduction” text does not have punctuation in the page scans.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
