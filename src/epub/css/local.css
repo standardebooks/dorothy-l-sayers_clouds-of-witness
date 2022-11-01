@@ -2,25 +2,22 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 #introduction p{
+	font-size: 120%;
+	font-variant: all-small-caps;
 	text-align: center;
 	text-indent: 0;
-	font-variant: all-small-caps;
-	font-size: 120%;
+}
+
+blockquote header{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
 }
 
 #chapter-1 > blockquote{
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
-	font-variant: small-caps;
-}
-
-#chapter-3 > blockquote p{
-	text-indent: 0;
-}
-
-#chapter-3 > blockquote p:first-child{
-	text-align: center;
-	font-variant: small-caps;
 }
 
 /* All epigraphs */
@@ -82,7 +79,6 @@ section[epub|type~="epigraph"] > *{
 }
 
 @supports(display: flex){
-
 	section[epub|type~="introduction"],
 	section[epub|type~="epigraph"]{
 		align-items: center;
