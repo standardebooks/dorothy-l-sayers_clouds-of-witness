@@ -214,3 +214,18 @@ footer{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+
+/* Tables */
+#chapter-5 table,
+#chapter-11 table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#chapter-5 table td,
+#chapter-11 table td{
+	vertical-align: top;
+}
+
