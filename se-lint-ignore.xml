@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-1.xhtml">
+		<ignore>
+			<code>s-032</code>
+			<reason>Used new SE vocabulary item (se:name.vehicle.airplane) not currently recognised by lint.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2.xhtml">
+		<ignore>
+			<code>s-032</code>
+			<reason>Used new SE vocabulary item (se:name.vehicle.airplane) not currently recognised by lint.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-4.xhtml">
 		<ignore>
 			<code>s-023</code>
