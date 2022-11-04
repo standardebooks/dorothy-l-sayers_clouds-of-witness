@@ -1,7 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-#introduction{
+#introduction,
+#prologue{
 	margin-top: 20vh; /* I added this because lint asked me to, but...? */
 }
 
@@ -218,14 +219,13 @@ footer{
 /* Tables */
 #chapter-5 table,
 #chapter-11 table{
+	margin-bottom: 0.5em;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0.5em;
-	margin-bottom: 0.5em;
 }
 
 #chapter-5 table td,
 #chapter-11 table td{
 	vertical-align: top;
 }
-
