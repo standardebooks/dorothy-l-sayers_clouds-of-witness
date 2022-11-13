@@ -1,16 +1,18 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-#introduction,
 #prologue{
 	margin-top: 20vh; /* I added this because lint asked me to, but...? */
 }
 
 #introduction p{
-	font-size: 2em;
-	font-variant: all-small-caps;
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
+}
+
+#introduction p b{
+	font-size: 1.25em;
 }
 
 blockquote header{
@@ -75,6 +77,7 @@ section[epub|type~="epigraph"]{
 	text-align: center;
 }
 
+section[epub|type~="introduction"] > *,
 section[epub|type~="epigraph"] > *{
 	display: inline-block;
 	margin: auto;
@@ -93,6 +96,11 @@ section[epub|type~="epigraph"] > *{
 		justify-content: center;
 		min-height: calc(98vh - 3em);
 		padding-top: 3em;
+	}
+
+	section[epub|type~="introduction"] > *,
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
 	}
 }
 /* End full-page epigraphs */
