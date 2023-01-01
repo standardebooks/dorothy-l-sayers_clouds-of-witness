@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/dorothy-l-sayers/clouds-of-witness</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-01-01T20:27:37Z</dc:date>
+		<meta property="dcterms:modified">2023-01-01T20:27:37Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -49,17 +49,17 @@
 		<meta property="group-position" refines="#collection-1">2</meta>
 		<dc:description id="description">An aristocrat with a passion for detective work has to clear the Duke, his brother, from a charge of murder.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Clouds of Witness&lt;/i&gt;, published by &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy L. Sayers&lt;/a&gt; in 1926, is the second of her novels in the &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey series&lt;/a&gt; featuring a wealthy aristocrat who enjoys detective work as a hobby.&lt;/p&gt;
-			&lt;p&gt;In this book, however, Wimsey’s skills have an immediate and personal interest when his brother Gerald, the Duke of Denver, is arrested on a charge of murder. He is accused of shooting his sister’s fiancé, Denis Cartcart, in a fit of rage after discovering that Cathcart was a man who made a living by cheating at cards. The Duke has no credible alibi for the time of Cathcart’s death and refuses to clarify where he was. Despite this, Wimsey sets to work to solve the case and exonerate his brother.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Clouds of Witness&lt;/i&gt;, published by &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy L. Sayers&lt;/a&gt; in 1926, is the second of her novels starring &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey&lt;/a&gt;, a wealthy aristocrat who enjoys detective work as a hobby.&lt;/p&gt;
+			&lt;p&gt;In this book Wimsey’s skills have an immediate and personal interest when his brother Gerald, the Duke of Denver, is arrested on a charge of murder. He is accused of shooting his sister’s fiancé, Denis Cathcart, in a fit of rage after discovering that Cathcart was a man who made a living by cheating at cards. The Duke has no credible alibi for the time of Cathcart’s death and refuses to clarify where he was. Wimsey promptly sets to work to solve the case and exonerate his brother.&lt;/p&gt;
 			&lt;p&gt;One interesting feature of the story is that the Duke, as a peer of the realm, must be tried before his other peers in the House of Lords. Another is the flight across the Atlantic undertaken by Wimsey to obtain vital evidence—a year before Charles Lindbergh first made this voyage in reality.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Clouds of Witness&lt;/i&gt; was made into a television mini-series for the BBC in 1972.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://archive.org/details/isbn_9780061043536</dc:source>
 		<dc:source>https://www.fadedpage.com/books/20081011</dc:source>
-		<meta property="se:production-notes">(1) There is some fictional front matter which I’ve tagged as “introduction” and “prologue,” but they don’t fit very comfortably into those categories and I’m not sure I have done this correctly. (2) The phrase “pied à terre” in Chapter 5, though in Merriam-Webster, has nevertheless been italicised because it is in a passage amidst a series of other statements spoken in French by a Frenchman. It would seem odd to have it the only such statement not italicised. (3) I’ve used a new SE vocabulary item se:name.vehicle.airplane which is not currently recognized by the version of lint I’m running. (4) I've chosen to leave the letter in French to Simone in Chapter 17 without italicisation, which otherwise would make it difficult to read.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">(1) The phrase “pied à terre” in Chapter 5, though in Merriam-Webster, has nevertheless been italicised because it is in a passage amidst a series of other statements spoken in French by a Frenchman. It would seem odd to have it the only such statement not italicised. (2) I've chosen to leave the letter in French to Simone in Chapter 17 without italicisation, which otherwise would make it difficult to read.</meta>
+		<meta property="se:word-count">85814</meta>
+		<meta property="se:reading-ease.flesch">74.79</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Clouds_of_Witness</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-l-sayers_clouds-of-witness</meta>
 		<dc:creator id="author">Dorothy L. Sayers</dc:creator>
@@ -86,6 +86,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
