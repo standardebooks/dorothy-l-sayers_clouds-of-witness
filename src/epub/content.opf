@@ -58,7 +58,7 @@
 		<dc:source>https://archive.org/details/isbn_9780061043536</dc:source>
 		<dc:source>https://www.fadedpage.com/books/20081011</dc:source>
 		<meta property="se:production-notes">(1) The phrase “pied à terre” in Chapter 5, though in Merriam-Webster, has nevertheless been italicised because it is in a passage amidst a series of other statements spoken in French by a Frenchman. It would seem odd to have it the only such statement not italicised. (2) I've chosen to leave the letter in French to Simone in Chapter 17 without italicisation, which otherwise would make it difficult to read.</meta>
-		<meta property="se:word-count">85814</meta>
+		<meta property="se:word-count">85818</meta>
 		<meta property="se:reading-ease.flesch">74.79</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Clouds_of_Witness</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-l-sayers_clouds-of-witness</meta>
