@@ -6,7 +6,7 @@
 			<reason>The text is aligned using epigraph styling and doesn't need a top margin.</reason>
 		</ignore>
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>The “introduction” text does not have punctuation in the page scans, so I’ve left it out here.</reason>
 		</ignore>
 	</file>
