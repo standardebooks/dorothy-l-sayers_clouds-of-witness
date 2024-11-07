@@ -231,10 +231,10 @@ footer{
 /* Tables */
 #chapter-5 table,
 #chapter-11 table{
-	margin-bottom: 0.5em;
+	margin-bottom: .5em;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0.5em;
+	margin-top: .5em;
 }
 
 #chapter-5 table td,
