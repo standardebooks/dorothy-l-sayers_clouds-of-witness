@@ -15,5 +15,9 @@
 			<code>s-023</code>
 			<reason>Title of chapter begins with a dash and so it’s correct to uppercase the following word.</reason>
 		</ignore>
+		<ignore>
+			<code>t-076</code>
+			<reason>Letter is dialect and not a grapheme.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
