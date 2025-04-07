@@ -247,3 +247,8 @@ footer{
 #chapter-11 table td{
 	vertical-align: top;
 }
+
+#chapter-11 table th{
+	text-align: left;
+	font-weight: normal;
+}
