@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="introduction.xhtml">
-		<ignore>
-			<code>c-012</code>
-			<reason>The text is aligned using epigraph styling and doesn't need a top margin.</reason>
-		</ignore>
-		<ignore>
-			<code>y-003</code>
-			<reason>The “introduction” text does not have punctuation in the page scans, so I’ve left it out here.</reason>
-		</ignore>
-	</file>
 	<file path="chapter-4.xhtml">
 		<ignore>
 			<code>s-023</code>
@@ -18,6 +8,16 @@
 		<ignore>
 			<code>t-076</code>
 			<reason>Letter is dialect and not a grapheme.</reason>
+		</ignore>
+	</file>
+	<file path="introduction.xhtml">
+		<ignore>
+			<code>c-012</code>
+			<reason>The text is aligned using epigraph styling and doesn't need a top margin.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>The “introduction” text does not have punctuation in the page scans, so I’ve left it out here.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
