@@ -47,6 +47,9 @@
 		<meta id="collection-1" property="belongs-to-collection">Lord Peter Wimsey</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
+		<meta id="collection-2" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
+		<meta property="group-position" refines="#collection-2">30</meta>
 		<dc:description id="description">An aristocrat with a passion for detective work has to clear the Duke, his brother, from a charge of murder.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Clouds of Witness&lt;/i&gt;, published by &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy L. Sayers&lt;/a&gt; in 1926, is the second of her novels starring &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey&lt;/a&gt;, a wealthy aristocrat who enjoys detective work as a hobby.&lt;/p&gt;
