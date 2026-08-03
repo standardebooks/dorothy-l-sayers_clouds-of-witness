@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/dorothy-l-sayers/clouds-of-witness</dc:identifier>
 		<dc:date>2023-01-01T20:27:37Z</dc:date>
@@ -51,13 +51,13 @@
 		<meta id="collection-2" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">30</meta>
-		<dc:description id="description">An aristocrat with a passion for detective work has to clear the Duke, his brother, from a charge of murder.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An aristocrat with a passion for detective work has to clear the Duke, his brother, from a charge of murder.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Clouds of Witness&lt;/i&gt;, published by &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy L. Sayers&lt;/a&gt; in 1926, is the second of her novels starring &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey&lt;/a&gt;, a wealthy aristocrat who enjoys detective work as a hobby.&lt;/p&gt;
 			&lt;p&gt;In this book Wimsey’s skills have an immediate and personal interest when his brother Gerald, the Duke of Denver, is arrested on a charge of murder. He is accused of shooting his sister’s fiancé, Denis Cathcart, in a fit of rage after discovering that Cathcart was a man who made a living by cheating at cards. The Duke has no credible alibi for the time of Cathcart’s death and refuses to clarify where he was. Wimsey promptly sets to work to solve the case and exonerate his brother.&lt;/p&gt;
 			&lt;p&gt;One interesting feature of the story is that the Duke, as a peer of the realm, must be tried before his other peers in the House of Lords. Another is the flight across the Atlantic undertaken by Wimsey to obtain vital evidence—a year before Charles Lindbergh first made this voyage in reality.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Clouds of Witness&lt;/i&gt; was made into a television mini-series for the BBC in 1972.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20081011</dc:source>
 		<dc:source>https://archive.org/details/isbn_9780061043536</dc:source>
