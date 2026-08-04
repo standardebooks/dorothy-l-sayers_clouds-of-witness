@@ -51,7 +51,7 @@
 		<meta id="collection-2" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">30</meta>
-		<dc:abstract>An aristocrat with a passion for detective work has to clear the Duke, his brother, from a charge of murder.</dc:abstract>
+		<meta property="schema:abstract">An aristocrat with a passion for detective work has to clear the Duke, his brother, from a charge of murder.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Clouds of Witness&lt;/i&gt;, published by &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy L. Sayers&lt;/a&gt; in 1926, is the second of her novels starring &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey&lt;/a&gt;, a wealthy aristocrat who enjoys detective work as a hobby.&lt;/p&gt;
 			&lt;p&gt;In this book Wimsey’s skills have an immediate and personal interest when his brother Gerald, the Duke of Denver, is arrested on a charge of murder. He is accused of shooting his sister’s fiancé, Denis Cathcart, in a fit of rage after discovering that Cathcart was a man who made a living by cheating at cards. The Duke has no credible alibi for the time of Cathcart’s death and refuses to clarify where he was. Wimsey promptly sets to work to solve the case and exonerate his brother.&lt;/p&gt;
